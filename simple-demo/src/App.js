@@ -67,7 +67,7 @@ class App extends Component {
           </p>
         </header>
         <div className="Action-container">
-          <div><input type='text' value={this.state.dateToCheck} onChange={this.dateToCheckChange} /></div>
+          <div><input type='text' placeholder='Date: YYYY-MM' value={this.state.dateToCheck} onChange={this.dateToCheckChange} /></div>
           <div><button className='Button-check-movie' onClick={this.callMovieCheckApi}>{this.state.status}</button></div>
         </div>
         <div className="Schedule-container">

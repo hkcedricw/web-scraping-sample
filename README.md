@@ -6,7 +6,7 @@ This is a simple demonstration aiming to show:<br />
 
 ### How this work
 In 'express-api' folder, you will find code about:<br />
-1. Running up Express Server which would serve different routes for different Resfful API<br />
+1. Running up Express Server which would serve different routes for different Restful API<br />
 2. An API that calls IMDB upcoming movie page and grab the information as response<br />
 In 'simple-demo' folder, you will find code about:<br />
 1. A React app that consumes the Restful API and show the upcoming Movie title<br />
