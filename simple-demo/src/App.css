@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Action-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.Schedule-container {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.Date-container {
+  background: #888
+}
+
+.Button-check-movie {
+  background: #999
+}
